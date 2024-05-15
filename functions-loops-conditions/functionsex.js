@@ -16,16 +16,14 @@
  */
 
 
-/**
+
   function square(number) { // the number is the parameter of the function
     return number * number; // the statement call
 }
-*/
 
-/**
- * 
- * 
- * function myFunc(theObject){
+
+
+ function myFunc(theObject){
     theObject.make = "Toyota";
 }
 
@@ -38,20 +36,23 @@ const mycar = {
 console.log(mycar.make); // Honda
 myFunc(mycar); // updates our functions with the object make of the car we updated object with our function
 console.log(mycar.make); // prints out the new function object
-*/
+
 
 // == Arrays ==
 
-/** 
- * function myFunc(theArr){
+
+ function myFunc(theArr){
     theArr[0] = 30;
-}
+ }
+
+  
+
 
 const arr = [45];
 
 console.log(arr[0]); // 45
 myFunc(arr);
 console.log(arr[0]); // 30 
-*/
+
 
 // === FUNCTION EXPRESSIONS 
